@@ -1,0 +1,81 @@
+@media screen and (max-width:950px) {
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero_section h1 {
+        font-size: 68px;
+    }
+
+    .hero_section h3 {
+        font-size: 22px;
+    }
+
+    .hero_section .container {
+        padding: 20px;
+    }
+
+    .music {
+        padding: 50px 20px 0px;
+    }
+
+    .music .container h2 {
+        font-size: 23px;
+    }
+
+    .music .container h4 {
+        font-weight: 500;
+    }
+
+    .apple {
+        margin-top: -300px;
+        position: relative;
+        top: 300px;
+    }
+
+    .apple img {
+        width: 90vw;
+    }
+
+    .about_music {
+        padding-top: 400px;
+    }
+
+    .about_music .container {
+        padding: 20px;
+    }
+
+    .about_music .mac img {
+        width: 90vw;
+    }
+
+    .video_section .container {
+        padding: 20px;
+    }
+
+    .video_section .container h3 {
+        font-size: 18px;
+    }
+
+    .gift {
+        padding: 20px;
+    }
+
+    .gift .card_img img{
+        width: 40vw;
+    }
+
+    .footer_upper .container {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+@media screen and (max-width:500px){
+    .apple {
+        margin-top: -200px;
+        position: relative;
+        top: 200px;
+    }
+}

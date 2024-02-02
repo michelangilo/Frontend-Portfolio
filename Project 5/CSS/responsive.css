@@ -1,0 +1,45 @@
+@media screen and (max-width: 900px) {
+    .hero {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .hero_img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero_img img {
+        width: 80%;
+    }
+
+    .hero_content {
+        padding: 0 10px;
+        gap: 10px;
+    }
+
+    .hero_content h1 {
+        font-size: 40px;
+    }
+
+    .features {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .feature {
+        flex-direction: column;
+    }
+
+    .feature img {
+        width: 72px;
+    }
+
+    .menu {
+        gap: 25px;
+    }
+
+    .footer_container {
+        flex-direction: column;
+    }
+}

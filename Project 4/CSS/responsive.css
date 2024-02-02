@@ -1,0 +1,32 @@
+@media screen and (max-width: 800px) {
+    .hero_section {
+        min-height: 50vh;
+        background-attachment: local;
+    }
+
+    .text_container {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .lg_txt {
+        font-size: 32px;
+    }
+
+    .black_box h2 {
+        font-size: 24px;
+    }
+
+    .black_box h2 span {
+        font-size: 36px;
+    }
+
+    .bottom {
+        flex-direction: column;
+    }
+
+    .contact h2,
+    .about h2 {
+        font-size: 32px;
+    }
+}

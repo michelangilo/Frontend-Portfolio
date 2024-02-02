@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.4rem;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: #fff;
+    /* #fff white color */
+    z-index: 100;
+    /* because of vcard */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 1300px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li {
+    font-size: 1.8rem;
+}
+
+nav ul li:hover {
+    border-bottom: 2px solid rgb(255, 251, 0);
+}
+
+nav i {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero h1 {
+    font-size: 6rem;
+    line-height: 1.2;
+}
+
+.hero h4 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.hero_image img {
+    border-radius: 0 23px;
+}
+
+.hcard {
+    display: flex;
+    margin: 2rem 1rem;
+    box-shadow: 4px 3px 6px rgba(150, 150, 150, 0.25);
+    align-items: center;
+    border: 1px solid #e2e2e2;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.card_content {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    all: unset;
+    font-weight: 500;
+    border-bottom: 1px solid transparent;
+}
+
+.btn:hover {
+    border-bottom: 1px solid black;
+    transition: 0.3s ease-out;
+}
+
+.card_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.vcard {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 320px;
+    align-items: center;
+    border: 1px solid #e2e2e2;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.vcard:hover {
+    transform: scale(1.04);
+    box-shadow: 4px 3px 6px rgba(150, 150, 150, 0.25);
+    transition: 0.3s ease-out;
+}
+
+.vcard img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 1300px;
+    border-top: 1px solid #ccc;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+footer ul li {
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+footer ul li:hover {
+    border-bottom: 2px solid rgb(255, 251, 0);
+}

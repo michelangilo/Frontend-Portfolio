@@ -1,0 +1,15 @@
+@media only screen and (max-width: 475px) {
+    body{
+        flex-direction: column;
+    }
+    header{
+        position: static;
+        height: auto;
+    }
+    nav h1{
+        font-weight: 400;
+    }
+    main{
+        padding-top: 30px;
+    }
+}

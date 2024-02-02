@@ -1,0 +1,5 @@
+@media screen and (max-width: 460px) {
+    .info_item_address {
+        grid-column: 1/ span 1;
+    }
+}
